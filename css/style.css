@@ -1,0 +1,181 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.background{ 
+    width: 1260px;
+    height: 880px; 
+    background-color:#edf2c5;
+    padding-top: 36px;
+} 
+
+/* header */
+header{
+    margin: 0 160px 10px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h_vegetable{
+    font-family: Arial-Black;
+    color: #778a50;
+    font-size: 44px;
+}
+
+.h_iconsAndBtn{
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.line{
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+}
+
+.h_btn{
+    height: 25px;
+    background-color: transparent;
+    border: 1px #778a50 solid;
+    border-radius: 3px;
+    color: #778a50;
+    font-size: 14px;
+    font-family: Arial-BoldMT;
+    margin-left: 10px;
+}
+
+.login{
+    width: 60px;
+}
+
+.join{
+    width: 49px;
+}
+
+/* nav */
+nav{
+    margin: 10px 160px 10px 160px;
+    background-color: #778a50;
+    border-radius: 3px;
+}
+
+nav ul{
+    list-style: none; /* 移除項目符號 */
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li{
+    display: inline;
+    align-self: center;
+}
+
+nav a{
+    line-height: 44px;
+    font-family: Arial-Black;
+    color: #edf2c5;
+    font-size: 16px;
+    text-decoration: none; /* 移除底線 */
+    margin: 0 30px;
+}
+
+.pumpkinImg{
+    width: 940px;
+    height: 448px;
+    margin: 10px 160px;
+}
+
+/* section */
+section{
+    display: flex;
+}
+
+.article_title{
+    background-color: #778a50;
+    margin: 10px 26px 10px 160px;
+    width: 444px;
+    border-radius: 3px;
+}
+
+.article_font{
+    color: #edf2c5;
+    font-size: 16px;
+    line-height: 45px;
+    font-family: Arial-Black;
+    margin-left: 30px ;
+}
+
+.vegetable_img{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 26px 0 160px;
+    width: 444px;
+}
+
+.article_img{
+    width: 140px;
+    height:140px;
+}
+
+.ariticleCon{
+    margin: 10px 0 10px 26px;
+}
+
+.contact_content{
+    width: 444px;
+    height: 144px;
+    margin-left: 26px;
+    background-color: #f7fbda;
+    padding: 15px;
+}
+
+.contact_p{
+    font-size: 12px;
+    line-height: 15px;
+    font-family: ArialMT;
+    color: #7d7d7d;
+}
+
+.p_sec{
+    line-height: 21px;
+}
+
+.contact_line{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin: 15px 0
+}
+
+/* footer */
+footer{
+    width: 1260px;
+    height:60px;
+    background-color:#778a50;
+    text-align: center;
+}
+
+.footer_span{
+    font-size: 12px;
+    font-family: ArialMT;
+    color:#edf2c5;
+    line-height: 60px;
+    margin-top: 35px;
+}
+
+
+
+
+
